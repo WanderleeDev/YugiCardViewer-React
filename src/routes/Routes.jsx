@@ -4,6 +4,7 @@ import Contact from '../pages/Contact/Contact'
 import ErrorPage from '../pages/ErrorPage/ErrorPAge'
 import Profile from '../pages/Profile/Profile'
 import Login from '../components/Login/Login'
+import DashBoard from '../components/DashBoard/Dashboard'
 
 
 const router = createBrowserRouter([
@@ -17,13 +18,16 @@ const router = createBrowserRouter([
     element: <Contact/>
   },
   {
+    path: '/dashBoard',
+    element: <DashBoard/>
+  },
+  {
     path: '/profile',
     element: <Profile/>,
     children: [
       {
         path: "my-login",
         element: <Login/>,
-
       }
     ]
   }

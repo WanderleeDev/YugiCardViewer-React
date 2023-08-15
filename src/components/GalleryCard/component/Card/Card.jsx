@@ -13,7 +13,7 @@ const Card = ( data ) => {
         <span className="bg-slate-600 py-1 px-2 rounded">ATK: {atk}</span>
         <span className="bg-slate-600 py-1 px-2 rounded">DEF: {def || '???'}</span>
         </div>
-        <NavCard data={{image_url_small, name}}/>
+        <NavCard data={{img: image_url_small,name: name}}/>
       </figure>
     </>
   )

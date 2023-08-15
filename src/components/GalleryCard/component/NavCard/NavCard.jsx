@@ -1,17 +1,10 @@
 import { useState } from "react";
 //  icons
-import { RxHeart } from "react-icons/rx";
-import { RxHeartFilled } from "react-icons/rx";
-import { RxDownload } from "react-icons/rx";
-import { RxEyeOpen } from "react-icons/rx";
-import { RxAccessibility } from "react-icons/rx";
+import { RxHeart, RxHeartFilled, RxDownload, RxEyeOpen, RxAccessibility  } from "react-icons/rx";
 
-
-const NavCard = (props) => {
+const NavCard = ({ data }) => {
   const [isCheck, setIsCheck] = useState(false)
-  console.log(props);
-  const { image_url_small, name  } = data
-  console.log(name);
+  const { img, name } = data
   const handleFav = () => {
     setIsCheck(!isCheck)
   }
@@ -22,12 +15,12 @@ const NavCard = (props) => {
         <ul className="grid gap-6">
           <li onClick={ () => handleFav() } className="bg-slate-300/80 rounded-md w-8 h-8 backdrop-blur-sm grid place-content-center cursor-pointer">
             { isCheck 
-            ? <RxHeart className="hover:scale-90 active:scale-110 duration-100"/> 
-            : <RxHeartFilled className="hover:scale-90 active:scale-110 duration-100"/> 
+            ? <RxHeartFilled className="hover:scale-90 active:scale-110 duration-100"/> 
+            : <RxHeart className="hover:scale-90 active:scale-110 duration-100"/> 
             }
           </li>
           <li className="bg-slate-300/80 rounded-md w-8 h-8 backdrop-blur-sm grid place-content-center cursor-pointer">
-            <a href={img} download={img}>
+            <a href={img} download={`carta-${name}.jpg`}>
             <RxDownload className="hover:scale-90 active:scale-110 duration-100"/>
             </a>
           </li>
