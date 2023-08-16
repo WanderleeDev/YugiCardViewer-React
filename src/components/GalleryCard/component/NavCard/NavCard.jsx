@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom'
 //  icons
 import { RxHeart, RxHeartFilled, RxDownload, RxEyeOpen, RxAccessibility  } from "react-icons/rx";
 
@@ -11,11 +12,11 @@ const NavCard = ({ data }) => {
   
   return (
     <>
-      <nav className="absolute right-0 translate-x-[100%] text-slate-950 h-full grid justify-center content-between py-4 w-12 text-2xl translate-y-5 duration-300 opacity-0 blur-sm">
+      <nav className="absolute right-0 translate-x-[100%] text-slate-950 h-full grid justify-center content-between py-4 w-12 text-2xl translate-y-5 duration-300 opacity-0 blur-sm pointer-events-none z-20">
         <ul className="grid gap-6">
           <li onClick={ () => handleFav() } className="bg-slate-300/80 rounded-md w-8 h-8 backdrop-blur-sm grid place-content-center cursor-pointer">
             { isCheck 
-            ? <RxHeartFilled className="hover:scale-90 active:scale-110 duration-100"/> 
+            ? <RxHeartFilled className="text-red-400 hover:scale-90 active:scale-110 duration-100"/> 
             : <RxHeart className="hover:scale-90 active:scale-110 duration-100"/> 
             }
           </li>
@@ -25,7 +26,9 @@ const NavCard = ({ data }) => {
             </a>
           </li>
           <li className="bg-slate-300/80 rounded-md w-8 h-8 backdrop-blur-sm grid place-content-center cursor-pointer">
-            <RxEyeOpen className="hover:scale-90 active:scale-110 duration-100"/>
+            <Link to='/dashBoard/:id'>
+              <RxEyeOpen className="hover:scale-90 active:scale-110 duration-100"/>
+            </Link>
           </li>
         </ul>
         <button className="bg-slate-300/80 rounded-md w-8 h-8 backdrop-blur-sm grid place-content-center cursor-pointer">

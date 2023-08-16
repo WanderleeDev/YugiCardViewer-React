@@ -4,7 +4,6 @@ import Card from "./component/Card/Card";
 
 const GalleryCard = () => {
   const { data } = useFetch()
-
   return (
     <>
       <section className="px-4 max-w-6xl mx-auto grid">

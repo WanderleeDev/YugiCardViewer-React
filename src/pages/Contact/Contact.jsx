@@ -1,12 +1,12 @@
-import {useParams} from 'react-router-dom'
+import Form from '@components/Form/Form.jsx'
 
 const Contact = () => {
-  const { id } = useParams()
   return(
     <>
-      <form>
-        Contacto
-      </form>
+      <section className="bg-slate-500 max-w-6xl mx-auto">
+        <h2 className="text-4xl font-medium">Contact us</h2>
+        <Form />
+      </section>
     </>
   )
 }

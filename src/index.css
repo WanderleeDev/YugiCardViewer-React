@@ -3,10 +3,22 @@
 @tailwind utilities;
 
 @layer utilities {
+  .scrollStyle::-webkit-scrollbar {
+    width: .5rem;               /* width of the entire scrollbar */
+  }
+  .scrollStyle::-webkit-scrollbar-track {
+    background: #475569;        /* color of the tracking area */
+  }
+  .scrollStyle::-webkit-scrollbar-thumb {
+    background-color: #ffffffb0;    /* color of the scroll thumb */
+    border-radius: 1rem;       /* roundness of the scroll thumb */
+  }
+  
   .showNav:hover nav {
     transform: translateX(100%) translateY(0);
     filter: blur(0);
     opacity: 1;
     transition: transform 400ms ease-in-out, filter 400ms ease-in-out, opacity 100ms ease-in-out;
+    pointer-events: all;
   }
 }

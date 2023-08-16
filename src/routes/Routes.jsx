@@ -14,11 +14,11 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage/>
   },
   {
-    path: '/contact/:id',
+    path: '/contact',
     element: <Contact/>
   },
   {
-    path: '/dashBoard',
+    path: '/dashBoard/:id',
     element: <DashBoard/>
   },
   {

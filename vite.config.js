@@ -6,7 +6,13 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@images': '/public'
+      '@images': '/public',
+      '@assets': '/src/assets',
+      '@components': '/src/components'
     }
+  },
+  server: {
+    open: true
   }
+  
 })
