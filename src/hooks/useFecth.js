@@ -16,7 +16,7 @@ import axios from "axios";
       }
       axiosData()
     }, [])
-
+    console.log(data);
     return {data}
   }
 

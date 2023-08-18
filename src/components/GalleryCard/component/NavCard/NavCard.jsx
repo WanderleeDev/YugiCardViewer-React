@@ -12,7 +12,7 @@ const NavCard = ({ data }) => {
   
   return (
     <>
-      <nav className="absolute right-0 translate-x-[100%] text-slate-950 h-full grid justify-center content-between py-4 w-12 text-2xl translate-y-5 duration-300 opacity-0 blur-sm pointer-events-none z-20">
+      <nav className="absolute right-0 translate-x-[100%] text-slate-950 h-full grid justify-center content-between py-4 w-12 text-2xl translate-y-5 duration-300 opacity-0 blur-sm pointer-events-none">
         <ul className="grid gap-6">
           <li onClick={ () => handleFav() } className="bg-slate-300/80 rounded-md w-8 h-8 backdrop-blur-sm grid place-content-center cursor-pointer">
             { isCheck 

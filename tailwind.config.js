@@ -15,6 +15,9 @@ export default {
       },
       fontFamily: {
         'Poppins': "'Poppins', sans-serif"
+      },
+      backgroundPosition:{
+        'topCenter': "top center"
       }
     },
   },

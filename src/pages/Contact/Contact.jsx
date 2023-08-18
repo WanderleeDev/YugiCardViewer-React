@@ -1,9 +1,11 @@
 import Form from '@components/Form/Form.jsx'
+import Banner from '../../components/Banner/Banner'
 
 const Contact = () => {
   return(
     <>
-      <section className="bg-slate-500 max-w-6xl mx-auto">
+      <Banner/>
+      <section className="bg-slate-500 max-w-6xl mx-auto my-16">
         <h2 className="text-4xl font-medium">Contact us</h2>
         <Form />
       </section>
