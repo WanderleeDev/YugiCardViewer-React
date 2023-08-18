@@ -6,9 +6,11 @@
   .scrollStyle::-webkit-scrollbar {
     width: .5rem;               /* width of the entire scrollbar */
   }
+
   .scrollStyle::-webkit-scrollbar-track {
     background: #475569;        /* color of the tracking area */
   }
+  
   .scrollStyle::-webkit-scrollbar-thumb {
     background-color: #ffffffb0;    /* color of the scroll thumb */
     border-radius: 1rem;       /* roundness of the scroll thumb */
@@ -20,5 +22,29 @@
     opacity: 1;
     transition: transform 400ms ease-in-out, filter 400ms ease-in-out, opacity 100ms ease-in-out;
     pointer-events: all;
+  }
+
+  .active{
+    background-color: rgba(255, 255, 255, 0.377);
+  }
+
+  .link--after::after{
+    position: absolute;
+    content: attr(data-info) !important;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    padding-inline: .5rem;
+    color: white;
+    font-weight: 600;
+    font-size: .8rem;
+    letter-spacing: 0.05rem;
+    border-radius: .5rem;
+    background-color: var(--tw-ring-color);
+    transition: filter linear 0.3s, top linear 0.3s;
+    transform: translateX(115%) translateY(-50%);
+    opacity: 0;
+    filter: blur(4px);
+    pointer-events: none;
   }
 }

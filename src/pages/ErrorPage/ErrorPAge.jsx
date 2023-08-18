@@ -1,4 +1,4 @@
-import notFound from '@assets/404.gif'
+import notFound from '@assets/404.webp'
 import {useRouteError, Link} from 'react-router-dom'
 
 const ErrorPage = () => {
