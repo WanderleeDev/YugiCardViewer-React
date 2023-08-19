@@ -1,0 +1,258 @@
+  <svg id="bg-18" data-name="Background 18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 975.61 1031.67" width="534.594" height="565.297">
+    <defs>
+      <style>
+        .cls-bg181{fill:#f8f8ff;}
+        .cls-bg182{fill:#e1e6fb;}
+        .cls-bg183{fill:#eaedfb;}
+        .cls-bg184{fill:#bac5f4;}
+        .cls-bg185{opacity:0.5;}
+        .cls-bg186{fill:#fff;}
+        .cls-bg187{fill:#b0c0f4;}
+        .cls-bg188,.cls-bg189{fill:none;stroke:#e1e6fb;stroke-miterlimit:10;stroke-width:4px;}
+        .cls-bg188{stroke-dasharray:11.72 11.72;}
+        .cls-bg189{stroke-dasharray:11.57 11.57;}
+
+        @keyframes floating {
+          0% {
+            opacity: 1;
+            transform: translateY(0px);
+          }
+
+          50% {
+            opacity: 0;
+            transform: translateY(-10px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(0px);
+          }
+        }
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+    
+          100% {
+            opacity: 1;
+          }
+        }
+
+        @keyframes slideDown {
+          0% {
+            opacity: 0;
+            transform: translateY(-30px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        @keyframes slideUp {
+          0% {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @keyframes floating {
+          0% {
+            opacity: 1;
+            transform: translateY(0px);
+          }
+
+          50% {
+            transform: translateY(-10px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(0px);
+          }
+        }
+
+        @keyframes slideRight {
+          0% {
+            opacity: 0;
+            transform: translateX(30px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        @keyframes slideLeft {
+          0% {
+            opacity: 0;
+            transform: translateX(-30px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        .appear{
+          animation: 3s infinite forwards cubic-bezier(.36, -0.01, .5, 1.38) floating;
+          animation-delay: 0s; ;
+        }
+        .slideRigth {
+          animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown;
+          animation-delay: 0.1s;
+          opacity: 0
+        }
+        .slideUp {
+          animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown;
+          animation-delay: 0.1s;
+          opacity: 0
+        }
+      }
+      </style>
+    </defs>
+
+      <g id="bg18-table">
+        <polygon class="cls-bg182 slideRigth" points="255.29 283.26 255.29 610.26 749.29 610.26 749.79 269.76 255.29 269.26 255.29 283.26"></polygon>
+        <polygon class="cls-bg183 slideUp" points="218.29 312.26 218.29 639.26 712.29 639.26 712.79 298.76 218.29 298.26 218.29 312.26"></polygon>
+        <rect class="cls-bg184" x="232.79" y="324.76" width="15" height="15" rx="7.5"></rect>
+        <rect class="cls-bg184" x="255.79" y="324.76" width="15" height="15" rx="7.5"></rect>
+        <rect class="cls-bg184" x="278.79" y="324.76" width="15" height="15" rx="7.5"></rect>
+        <g id="bg18-tables" class="cls-bg185">
+        <g id="bg18-table_1" data-name="table 1">
+          <rect class="cls-bg186" x="244.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="253.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="261.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="270.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="278.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="287.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="295.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="303.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="311.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="320.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="328.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="337.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="345.79" y="373.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="244.79" y="373.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="383.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="393.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="403.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="413.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="423.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="433.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="443.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="453.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="463.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="244.79" y="473.76" width="103" height="2"></rect>
+        </g>
+        <g id="bg18-table_2" data-name="table 2">
+          <rect class="cls-bg186" x="370.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="379.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="387.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="396.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="404.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="413.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="421.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="429.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="437.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="446.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="454.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="463.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="471.79" y="501.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="370.79" y="501.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="511.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="521.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="531.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="541.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="551.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="561.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="571.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="581.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="591.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="370.79" y="601.76" width="103" height="2"></rect>
+        </g>
+        <g id="bg18-table_3" data-name="table 3">
+          <rect class="cls-bg186" x="483.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="492.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="500.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="509.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="517.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="526.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="534.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="542.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="550.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="559.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="567.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="576.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="584.79" y="384.76" width="2" height="102"></rect>
+          <rect class="cls-bg186" x="483.79" y="384.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="394.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="404.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="414.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="424.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="434.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="444.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="454.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="464.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="474.76" width="103" height="2"></rect>
+          <rect class="cls-bg186" x="483.79" y="484.76" width="103" height="2"></rect>
+        </g>
+      </g>
+      <rect class="cls-bg184" x="293.79" y="405.76" width="147" height="102"></rect>
+      <rect class="cls-bg182" x="308.79" y="418.76" width="147" height="102"></rect>
+      <rect class="cls-bg186" x="338.79" y="432.76" width="84" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="437.76" width="69" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="441.76" width="91" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="454.76" width="40" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="459.76" width="61" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="463.76" width="57" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="477.76" width="40" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="482.76" width="61" height="2"></rect>
+      <rect class="cls-bg186" x="338.79" y="486.76" width="57" height="2"></rect>
+      <circle class="cls-bg186" cx="326.29" cy="438.26" r="6.5"></circle>
+      <circle class="cls-bg186" cx="326.29" cy="459.26" r="6.5"></circle>
+      <circle class="cls-bg186" cx="327.29" cy="483.26" r="6.5"></circle>
+      <rect class="cls-bg186" x="608.79" y="418.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="429.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="440.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="451.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="462.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="473.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="484.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="495.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="608.79" y="506.76" width="73" height="2"></rect>
+      <rect class="cls-bg186" x="229.79" y="347.76" width="458" height="2"></rect>
+      <circle class="cls-bg186" cx="645.29" cy="384.26" r="22.5"></circle>
+    </g>
+    <g class="appear" id="bg18-bulb">
+      <path class="cls-bg184" d="M746.54,330V310s2-5-7-9-25-20-24-47,26-51,54-49,48,24,49,54-26,42-26,42-5,1-5,6v23Z" transform="translate(-70.75 -38.24)"></path>
+      <rect class="cls-bg184" x="709.54" y="214" width="2" height="20" transform="translate(68.78 664.28) rotate(-57.46)"></rect>
+      <rect class="cls-bg184" x="748.54" y="184" width="2" height="20" transform="translate(-94.72 122.16) rotate(-12.02)"></rect>
+      <rect class="cls-bg184" x="798.54" y="190" width="2" height="20" transform="translate(158.58 -433.32) rotate(32.18)"></rect>
+      <rect class="cls-bg184" x="828.54" y="229" width="2" height="20" transform="translate(729.23 -662.01) rotate(71.97)"></rect>
+      <rect class="cls-bg184" x="822.54" y="279" width="2" height="20" transform="translate(1433.75 -295.15) rotate(121.94)"></rect>
+      <rect class="cls-bg184" x="732.54" y="303" width="2" height="20" transform="translate(1116.6 930.58) rotate(-147.79)"></rect>
+      <rect class="cls-bg184" x="703.54" y="265" width="2" height="20" transform="translate(525.96 985.34) rotate(-103.13)"></rect>
+      <rect class="cls-bg184" x="671.79" y="291.76" width="49" height="7" rx="3.5"></rect>
+      <rect class="cls-bg184" x="672.79" y="304.76" width="47" height="7" rx="3.5"></rect>
+      <rect class="cls-bg186" x="672.79" y="298.76" width="47" height="6" rx="3"></rect>
+      <path class="cls-bg186" d="M748.54,350h36.74s-.74,12-17.74,12S751.54,355,748.54,350Z" transform="translate(-70.75 -38.24)"></path>
+    </g>
+    <g id="bg18-lights">
+      <circle class="cls-bg188" cx="209.92" cy="627.95" r="67.13"></circle>
+      <rect class="cls-bg182" x="198.06" y="690.1" width="23.71" height="7.44" rx="3.72"></rect>
+      <circle class="cls-bg182" cx="210.27" cy="627.6" r="59.5"></circle>
+      <circle class="cls-bg189" cx="312.97" cy="821.8" r="51.56" transform="translate(-560.19 423.76) rotate(-45)"></circle>
+      <rect class="cls-bg182" x="233.11" y="831.3" width="18.21" height="5.71" rx="2.7"></rect>
+      <circle class="cls-bg182" cx="242.49" cy="783.29" r="45.7"></circle>
+    </g>
+
+  </svg>
+  
