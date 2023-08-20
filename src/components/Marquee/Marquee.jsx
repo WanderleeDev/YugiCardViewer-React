@@ -7,7 +7,7 @@ export const Marquee = () => {
         return (
           <p key={i} className='will-change-transform flex items-center text-4xl font-semibold uppercase whitespace-nowrap px-12 animate-marquee tracking-wide'>⚠️ 
           <span className='text-6xl px-2'>{t[0]} 
-          <span className='text-slate-900'>{t[1]}</span>
+          <span className='text-slate-900 px-2'>{t[1]}</span>
           </span> ⚠️
           </p>
         )
